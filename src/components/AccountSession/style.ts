@@ -7,6 +7,10 @@ export const Container = styled.div`
   align-items: center;
   padding: 24px 48px;
   background-color: ${theme.primary};
+
+  @media(max-width: 720px) {
+    padding: 24px;
+  }
 `;
 
 export const UserInformationContainer = styled.div`
@@ -50,7 +54,12 @@ export const AnnounceCard = styled.div`
     color: ${theme.black};
     line-height: 24px;
   }
+
   span {
     color: ${theme.primary}
+  }
+
+  @media(max-width: 720px) {
+    display: none;
   }
 `;

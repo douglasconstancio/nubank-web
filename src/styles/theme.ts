@@ -1,11 +1,12 @@
 export const theme = {
   background: '#F7F7FF',
-  primary: '#820AD1',
   black: '#323232',
-  white: '#FFF',
-  lightGray: '#E8E8F0',
+  blue: '#009BDD',
   darkGray: '#7A7A80',
-  orange: '#FF7900',
   green: '#00DD16',
-  blue: '#009BDD'
+  lightGray: '#E8E8F0',
+  orange: '#FF7900',
+  primary: '#820AD1',
+  purpleGray: '#DED2ED',
+  white: '#FFF',
 }

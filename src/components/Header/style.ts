@@ -14,4 +14,8 @@ export const Container = styled.header`
     max-width: 44px;
     max-height: 22px;
   }
+
+  @media(max-width: 720px) {
+    padding: 16px 24px;
+  }
 `;
