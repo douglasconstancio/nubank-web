@@ -64,7 +64,7 @@ export const AnnounceCard = styled.div`
 
 export const WageSkeleton = styled(motion.span)`
   height: 1.25rem;
-  width: 100%;
+  width: 0;
   position: absolute;
   bottom: 0;
   border-radius: 2px;

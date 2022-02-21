@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-direction: row;
   max-width: 100%;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 24px 48px;
   & > div {
     margin-right: 24px;
